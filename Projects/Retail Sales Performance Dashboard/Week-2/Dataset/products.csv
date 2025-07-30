@@ -1,0 +1,6 @@
+productid,name,category,price,cost,discountpercentage,createdat
+1,"gaming laptop 16",electronics,1500.00,1200.00,8.00,"2025-07-23 11:28:08"
+2,"organic bananas",grocery,2.50,1.50,3.00,"2025-07-23 11:28:08"
+3,"denim jeans",apparel,40.00,20.00,12.00,"2025-07-23 11:28:08"
+4,"wireless earbuds",electronics,80.00,55.00,15.00,"2025-07-23 11:28:08"
+5,"led desk lamp","home goods",22.00,12.00,0.00,"2025-07-23 11:28:08"

@@ -1,0 +1,6 @@
+storeid,name,region,address,createdat
+1,"city mart - ny",northeast,"123 Madison Ave, New York, NY","2025-07-23 11:27:53"
+2,"budget shop - la","west coast","456 Sunset Blvd, Los Angeles, CA","2025-07-23 11:27:53"
+3,"fresh bodega - tx",south,"789 Lakeview Dr, Houston, TX","2025-07-23 11:27:53"
+4,"super saver - il",midwest,"101 River Rd, Chicago, IL","2025-07-23 11:27:53"
+5,"sunny store - fl",southeast,"202 Ocean Dr, Miami, FL","2025-07-23 11:27:53"

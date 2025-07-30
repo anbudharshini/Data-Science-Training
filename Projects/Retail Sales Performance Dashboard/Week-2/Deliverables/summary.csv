@@ -1,0 +1,6 @@
+productid,name,category,price,cost,discountpercentage,createdat,saleid,storeid,employeeid,quantity,saledate,revenue,profit,discountPercentage,totalCost,profitMargins
+1,gaming laptop 16,electronics,1500.0,1200.0,8.0,2025-07-23 11:28:08,1,1,1,3,2025-07-23 11:28:31,4500.0,900.0,0.0,3600.0,0.2
+2,organic bananas,grocery,2.5,1.5,3.0,2025-07-23 11:28:08,2,2,2,120,2025-07-23 11:28:31,300.0,120.0,0.0,180.0,0.4
+3,denim jeans,apparel,40.0,20.0,12.0,2025-07-23 11:28:08,3,3,3,25,2025-07-23 11:28:31,1000.0,500.0,0.0,500.0,0.5
+4,wireless earbuds,electronics,80.0,55.0,15.0,2025-07-23 11:28:08,4,4,4,8,2025-07-23 11:28:31,640.0,200.0,0.0,440.0,0.31
+5,led desk lamp,home goods,22.0,12.0,0.0,2025-07-23 11:28:08,5,5,5,15,2025-07-23 11:28:31,330.0,150.0,0.0,180.0,0.45

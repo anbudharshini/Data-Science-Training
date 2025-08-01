@@ -1,0 +1,21 @@
+productid,name,category,price,cost,discountpercentage,createdat
+1,gaming laptop 16,electronics,1500,1200,8,23-07-2025 11:28
+2,organic bananas,grocery,2.5,1.5,3,23-07-2025 11:28
+3,denim jeans,apparel,40,20,12,23-07-2025 11:28
+4,wireless earbuds,electronics,80,55,15,23-07-2025 11:28
+5,led desk lamp,home goods,22,12,0,23-07-2025 11:28
+6,instant coffee,grocery,5,3,5,24-07-2025 10:30
+7,men’s running shoes,apparel,65,40,10,24-07-2025 10:32
+8,smartphone 5G,electronics,999,750,7,24-07-2025 10:35
+9,memory foam pillow,home goods,30,18,6,24-07-2025 10:40
+10,gluten-free bread,grocery,4.2,2.8,2,24-07-2025 10:42
+11,women’s jacket,apparel,90,60,11,25-07-2025 11:10
+12,bluetooth speaker,electronics,120,90,13,25-07-2025 11:15
+13,washing detergent,grocery,8.5,5,1,25-07-2025 11:17
+14,reading lamp,home goods,25,15,4,25-07-2025 11:20
+15,men’s t-shirt,apparel,20,10,9,25-07-2025 11:25
+16,laptop stand,home goods,35,20,3,26-07-2025 09:00
+17,noise-canceling headphones,electronics,180,140,10,26-07-2025 09:15
+18,avocados,grocery,3.2,2,2,26-07-2025 09:30
+19,women’s jeans,apparel,50,30,5,26-07-2025 09:45
+20,bedsheet set,home goods,60,35,6,26-07-2025 10:00

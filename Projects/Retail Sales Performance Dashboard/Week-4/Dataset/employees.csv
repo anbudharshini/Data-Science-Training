@@ -1,0 +1,21 @@
+employeeid,name,storeid,role,hiredate
+1,michael reed,1,cashier,23-07-2025 11:28
+2,susan lee,2,manager,23-07-2025 11:28
+3,david park,3,sales associate,23-07-2025 11:28
+4,emma thomas,4,supervisor,23-07-2025 11:28
+5,lisa nguyen,5,stock clerk,23-07-2025 11:28
+6,james smith,1,security,24-07-2025 09:15
+7,sophia turner,2,cashier,24-07-2025 10:45
+8,ryan kim,3,manager,24-07-2025 11:00
+9,nina brown,4,stock clerk,24-07-2025 08:50
+10,alex johnson,5,supervisor,24-07-2025 12:05
+11,chloe davis,1,sales associate,25-07-2025 09:22
+12,daniel moore,2,cashier,25-07-2025 10:40
+13,olivia scott,3,manager,25-07-2025 11:35
+14,brian lee,4,security,25-07-2025 07:55
+15,ava walker,5,stock clerk,25-07-2025 13:10
+16,noah hall,1,supervisor,26-07-2025 10:00
+17,isabella young,2,sales associate,26-07-2025 10:50
+18,liam king,3,cashier,26-07-2025 09:30
+19,grace adams,4,manager,26-07-2025 08:45
+20,ethan green,5,security,26-07-2025 12:15

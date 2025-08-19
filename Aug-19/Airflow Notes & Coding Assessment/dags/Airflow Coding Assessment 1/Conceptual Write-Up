@@ -1,0 +1,79 @@
+Part 2: Conceptual Write-Up on Apache Airflow
+---------------------------------------------
+
+1. What is Apache Airflow, and how does it work?
+------------------------------------------------
+Apache Airflow is an open-source platform used to programmatically author, schedule,
+and monitor workflows. It enables data engineers to define workflows as Directed
+Acyclic Graphs (DAGs) in Python. Each node in the DAG represents a task, and the
+edges define dependencies. Airflow uses a scheduler to determine task execution
+order, and workers (executors) run the tasks. Logs and statuses are accessible
+through the Airflow UI. Its design is modular, making it extensible with custom
+operators, hooks, and plugins.
+
+2. Where does Airflow fit in modern data engineering workflows?
+---------------------------------------------------------------
+Airflow is a critical tool in data engineering pipelines. Modern enterprises generate
+large amounts of data from multiple sources (databases, APIs, IoT streams, cloud
+storage). This data needs to be extracted, transformed, and loaded (ETL/ELT) into
+analytics platforms. Airflow orchestrates these steps reliably by:
+- Automating ETL/ELT processes.
+- Scheduling batch jobs (e.g., daily or hourly).
+- Integrating with cloud services (AWS, GCP, Azure).
+- Supporting data quality checks and alerts.
+Thus, Airflow fits as the orchestration layer in modern data platforms, bridging
+data ingestion, transformation, and delivery to BI or ML pipelines.
+
+3. How is Airflow different from traditional schedulers or other tools like Prefect or Luigi?
+---------------------------------------------------------------------------------------------
+- ** Traditional Schedulers (e.g., cron):
+  - Cron can only schedule time-based jobs, lacks monitoring, retries,
+    dependency management, and visualization.
+  - Airflow provides task dependencies, retries, backfills, and a web UI.
+
+- ** Luigi:
+  - Good for dependency handling, but lacks a strong UI and scalability
+    features compared to Airflow.
+  - Airflow has better support for parallelism and plugins.
+
+- ** Prefect:
+  - Prefect is newer, cloud-native, and has simpler syntax.
+  - It offers better handling of dynamic workflows and integrates well
+    with modern data stacks.
+  - Airflow, however, has a larger community, more mature ecosystem,
+    and proven reliability in enterprises.
+
+4. Key Components of Airflow and Their Interaction
+---------------------------------------------------
+- ** DAGs (Directed Acyclic Graphs): Define workflows as tasks with dependencies.
+- ** Operators: Define the type of work (e.g., PythonOperator, BashOperator,
+  SQL operators).
+- ** Scheduler: Determines when tasks should run, based on DAG definitions.
+- **Executor: Runs the tasks (e.g., LocalExecutor, CeleryExecutor, KubernetesExecutor).
+- **Metadata Database: Stores task states, DAG runs, and logs.
+- **Web UI: Provides monitoring, log access, and workflow management.
+
+Interaction flow:
+User defines a DAG → Scheduler reads DAG and queues tasks → Executor runs tasks
+on workers → Metadata DB tracks states → UI displays results.
+
+5. Real-Time Enterprise and Product Use Cases
+----------------------------------------------
+Airflow is highly useful in:
+- ** ETL Pipelines: Automating ingestion of data from APIs/databases,
+  transformation using Spark/Pandas, and loading into data warehouses.
+- ** Machine Learning Pipelines: Automating model training, validation,
+  deployment, and monitoring.
+- ** Data Quality & Compliance: Running validation checks on data before
+  analytics use.
+- ** Cloud Integrations: Orchestrating workflows across AWS S3, GCP BigQuery,
+  or Azure Data Lake.
+- ** Reporting & Analytics: Generating periodic reports, refreshing dashboards,
+  and feeding BI tools.
+
+Conclusion:
+Apache Airflow is a robust and flexible workflow orchestration platform that
+bridges data engineering tasks across environments. It goes beyond simple job
+scheduling by providing scalability, monitoring, and integrations, making it
+essential for modern enterprise data pipelines and ML-driven products.
+

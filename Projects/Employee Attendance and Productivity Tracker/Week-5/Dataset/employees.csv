@@ -1,0 +1,6 @@
+employeeid,name,department,role,email,hiredate,status
+1,"arun kumar",engineering,"software engineer",arun.kumar@example.com,"2023-02-10 00:00:00",Active
+2,"deepa rani",marketing,"content writer",deepa.rani@example.com,"2022-12-05 00:00:00",Active
+3,"vijay raj",hr,"hr executive",vijay.raj@example.com,"2021-10-15 00:00:00",Active
+4,"karthik s",engineering,"devops engineer",karthik.s@example.com,"2023-04-20 00:00:00",Active
+5,"meena p",finance,accountant,meena.p@example.com,"2022-07-25 00:00:00",Resigned
